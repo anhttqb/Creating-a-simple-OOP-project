@@ -7,7 +7,7 @@ from flatmates_bill.report import PdfReport, FileSharer
 app = Flask(__name__)
 
 
-class HomePage(MethodView):
+class HomePage(MethodView): #learn about Method View through this link:https://flask.palletsprojects.com/en/2.3.x/api/#flask.views.MethodView
     def get(self):
         return render_template('index.html')
 
