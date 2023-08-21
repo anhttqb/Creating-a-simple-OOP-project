@@ -1,0 +1,27 @@
+h3 {
+    color: darkgrey;
+    text-align: center;
+}
+input[type=text] {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 10px 0px;
+}
+input[type=number] {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 10px 0px;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: skyblue;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+}
+
+body {
+    background-color: ghostwhite;
+    padding: 20px;
+}
